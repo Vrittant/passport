@@ -57,6 +57,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
 
 	<build>
 		<plugins>
@@ -68,3 +69,9 @@
 	</build>
 
 </project>
+
+<properties>
+  <sonar.projectKey>Vrittant_passport</sonar.projectKey>
+  <sonar.organization>vrittant</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
